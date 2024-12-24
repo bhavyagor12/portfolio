@@ -37,7 +37,7 @@ const Hero = (props: Props) => {
               ]}
               loop={true}
               cursor
-              cursorStyle="_"
+              cursorStyle="|"
               delaySpeed={2000}
               onLoopDone={handleDone}
               onType={handleType}
@@ -45,9 +45,9 @@ const Hero = (props: Props) => {
           </span>
         </h1>
         <div className="pt-5">
-          <Link href="#about">
+          {/* <Link href="#about">
           <button className="heroButton">About</button>
-          </Link>
+          </Link> */}
           <Link href="#experience">
           <button className="heroButton">Experience</button>
           </Link>
